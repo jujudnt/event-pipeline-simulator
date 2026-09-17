@@ -1,0 +1,16 @@
+{
+  "name": "event-pipeline-simulator",
+  "version": "0.1.0",
+  "description": "A small TypeScript event pipeline simulator.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "demo": "npm run build && node dist/demo.js",
+    "test": "npm run build && node --test dist/**/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
+
